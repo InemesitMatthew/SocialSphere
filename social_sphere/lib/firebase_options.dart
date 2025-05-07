@@ -52,7 +52,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyARN4j7XgCSsKS_pb_AzH8q8xF_g74j01g',
-    appId: '1:379559331077:android:fd67f716635e12ff6f636c',
+    appId: '1:379559331077:android:a25392fd043ebc606f636c',
     messagingSenderId: '379559331077',
     projectId: 'socialsphere-c2989',
     storageBucket: 'socialsphere-c2989.firebasestorage.app',
@@ -60,11 +60,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyB3o1H3vInJXNycdVu5KK5JZG2ixeP2IUM',
-    appId: '1:379559331077:ios:ed78b6cd55755e356f636c',
+    appId: '1:379559331077:ios:f26733945eaf61606f636c',
     messagingSenderId: '379559331077',
     projectId: 'socialsphere-c2989',
     storageBucket: 'socialsphere-c2989.firebasestorage.app',
-    iosBundleId: 'com.example.socialSphere',
+    iosBundleId: 'com.senmid.socialsphere',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'socialsphere-c2989.firebasestorage.app',
     measurementId: 'G-GT36J5N0RB',
   );
+
 }
