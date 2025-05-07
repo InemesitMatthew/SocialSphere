@@ -46,6 +46,7 @@ dependencies:
   flutter_svg: ^2.1.0
   build_runner: ^2.4.15
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
 
 dev_dependencies:
   flutter_test:
@@ -100,3 +101,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_icons:
+    android: true
+    ios: true
+    image_path: "assets/icons/icon.png"
+    remove_alpha_ios: true
+    adaptive_icon_background: "#000A22"
+    adaptive_icon_foreground: "assets/images/logo.png"
