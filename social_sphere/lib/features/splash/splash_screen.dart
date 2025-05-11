@@ -10,7 +10,7 @@ class SplashScreen extends ConsumerWidget {
     // Add navigation logic
     Future.delayed(const Duration(seconds: 2), () {
       if (context.mounted) {
-        Navigator.pushReplacementNamed(context, '/home').catchError((error) {
+        Navigator.pushReplacementNamed(context, '/auth').catchError((error) {
           // Handle navigation error if needed
           debugPrint('Navigation error: $error');
           return null;
