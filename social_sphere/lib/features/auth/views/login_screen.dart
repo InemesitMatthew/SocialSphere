@@ -120,10 +120,14 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   // App Logo
-                  Image.asset(
-                    'assets/images/logo.png',
-                    height: 80,
-                  ),
+                    ClipOval(
+                    child: Image.asset(
+                      'assets/images/logo.png',
+                      height: 80,
+                      width: 80,
+                      fit: BoxFit.cover,
+                    ),
+                    ),
                   const SizedBox(height: 32),
 
                   // Welcome text
