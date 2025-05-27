@@ -9,10 +9,10 @@ final themeProvider = StateNotifierProvider<ThemeNotifier, ThemeData>((ref) {
 });
 
 class ThemeNotifier extends StateNotifier<ThemeData> {
-  ThemeNotifier() : super(darkMode); // Start in dark mode
+  ThemeNotifier() : super(lightMode); // Start in dark mode
 
   /// Toggles between light and dark themes.
   void toggleTheme() {
-    state = state.brightness == Brightness.dark ? lightMode : darkMode;
+    state = state.brightness == Brightness.dark ? darkMode : lightMode;
   }
 }
